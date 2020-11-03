@@ -1,6 +1,6 @@
 import cv2
 
-garagem= cv2.imread("imagens/garagem.jpg")
+garagem= cv2.imread("garagem.jpg")
 #garagem= cv2.cvtColor(garagem, cv2.COLOR_BGR2GRAY)
 gaussiana= cv2.GaussianBlur(garagem,(7,7),3)
 
