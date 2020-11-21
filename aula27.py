@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-presente= cv2.imread("imagens/presente.jpg")
+presente= cv2.imread("presente.jpg")
 cinza= cv2.cvtColor(presente,cv2.COLOR_BGR2GRAY)
 cv2.imshow("Imagem antes",presente)
 #cantos= cv2.cornerHarris(cinza,blockSize=4,ksize=5,k=0.04)

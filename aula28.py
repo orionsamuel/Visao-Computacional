@@ -2,7 +2,7 @@
 
 import cv2
 
-presente= cv2.imread("imagens/presente.jpg")
+presente= cv2.imread("presente.jpg")
 cinza= cv2.cvtColor(presente,cv2.COLOR_BGR2GRAY)
 
 cantos= cv2.goodFeaturesToTrack(cinza,maxCorners=4,qualityLevel=0.05,minDistance=12)
